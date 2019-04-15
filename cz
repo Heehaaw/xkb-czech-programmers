@@ -1,0 +1,26 @@
+xkb_symbols "programmer" {
+
+    // EN-US with czech accents on lvl3.
+    // 2019 by Janek Milota
+
+    include "us(basic)"
+    name[Group1]= "Czech Programmer";
+
+    key <AE02> {[ 2,		at,		ecaron 				]};
+    key <AE03> {[ 3,		numbersign,	scaron 				]};
+    key <AE04> {[ 4,		dollar,		ccaron 				]};
+    key <AE05> {[ 5,		percent,	rcaron 				]};
+    key <AE06> {[ 6,		asciicircum,	zcaron 				]};
+    key <AE07> {[ 7,		ampersand,	yacute 				]};
+    key <AE08> {[ 8,		asterisk,	aacute 				]};
+    key <AE09> {[ 9,		parenleft,	iacute 				]};
+    key <AE10> {[ 0,		parenright,	eacute 				]};
+    key <AE12> {[ equal,	plus,		dead_acute,	dead_caron 	]};
+
+    key <AD11> {[ bracketleft,	braceleft,	uacute ]};
+
+    key <AC10> {[ semicolon,	colon,		uring ]};
+    key <AC11> {[ apostrophe,	quotedbl,	section ]};
+
+    include "level3(ralt_switch)"
+};
